@@ -31,17 +31,17 @@
 
 @media (max-width: 600px){
     body{
-        padding: 30px;
+        padding: 15px;
     }
     
+    h1{
+        font-size: 24px; /* Diminuímos um pouco o título em ecrãs pequenos */
+    }
+
     .container{
-        width: 100%;
+        min-height: auto; /* Deixa o container crescer conforme o conteúdo */
+        padding: 30px 15px;
     }
-
-    header{
-        width: 100%;
-    }
-
 }
 
 body{
